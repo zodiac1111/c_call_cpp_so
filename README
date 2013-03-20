@@ -1,0 +1,6 @@
+c语言调用c++编写的so动态链接库小例子
+ make so1
+ make so2
+ make test
+ export LD_LIBRARY_PATH=.
+ ./myapp
